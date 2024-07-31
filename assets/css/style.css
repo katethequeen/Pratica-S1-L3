@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+}
+h3 {
+  background-color: rgb(250 235 215 / 0.5);
+  padding: 10px;
+  border-top: 1px solid rgb(253, 185, 96);
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 50px;
+  text-align: center;
+  width: 800px;
+  margin-inline: auto;
+}
+h1 {
+  width: 80%;
+  display: inline-block;
+}
+.first-text {
+  margin-top: 30px;
+}
+.first-text p {
+  text-align: start;
+  font-size: 17px;
+}
+
+figure {
+  margin-top: 20px;
+}
+figure video {
+  border-radius: 20px;
+}
+figure video[poster] {
+  width: 720px;
+  max-width: 100%;
+  height: 468px;
+}
+figcaption {
+  margin-top: 10px;
+  color: rgb(199, 195, 195);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.featured {
+  margin-top: 30px;
+  border-left: 3px solid orange;
+}
+.featured h2 {
+  font-weight: 300;
+  font-size: 18px;
+  color: rgb(208, 64, 12);
+}
+.featured p a {
+  color: rgb(10, 174, 120);
+  font-size: 15px;
+  font-weight: 600;
+}
+.featured h2,
+.featured p {
+  text-align: start;
+  margin-left: 10px;
+}
+
+.sections {
+  margin-top: 80px;
+}
+.sections section {
+  text-align: start;
+}
+
+hr {
+  border-color: rgb(250 235 215 / 0.5);
+  margin: 20px 0;
+}
+ul {
+  margin-left: 30px;
+}
+ul li {
+  margin: 20px;
+}
+.method {
+  margin-top: 30px;
+}
+.method ol {
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+footer {
+  margin: 30px 0;
+  width: 800px;
+  margin-inline: auto;
+}
+
+footer p a {
+  color: rgb(10, 174, 120);
+}
